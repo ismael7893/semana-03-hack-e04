@@ -173,3 +173,34 @@
 .container section .products .list-product .col-4{
     grid-column: span 2;
 }
+.container footer .menu{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.container footer .menu .list .title{
+    font-size: 36px;
+}
+.container footer .menu .list ul{
+    list-style: none;
+}
+.container footer .menu .list ul li a{
+    color: #4b4b4b;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.container footer .menu .list ul li{
+    margin-top: 10px;
+}
+.container footer .text{
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #4b4b4b;
+    font-family: sans-serif;
+}
