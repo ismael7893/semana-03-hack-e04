@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: auto;
+}
+.container header h1{
+    text-align: center;
+    margin: 60px 0 40px 0;
+    font-size: 48px;
+}
+.container header h1 .blue{
+    color: #037bc0;
+}
+
+.container header nav ul{
+    list-style: none;
+    display: flex;
+    border-top: 1px solid grey;
+    justify-content: center;
+}
+.container header nav ul li a{
+    color: #4b4b4b;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.container header .baner{
+    height: 550px;
+    overflow: hidden;
+}
+.container header .baner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container section{
+    width: 100%;
+}
+.container section .categories{
+    margin: 65px 0;
+}
+.container section .categories h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+
+}
+.container section .categories .list-categories{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.container section .categories .list-categories .item{
+    width: 32%;
+    margin-right: 2%;
+}
+.container section .categories .list-categories .item img{
+    width: 100%;
+}
+.container section .categories .list-categories .item p{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.container section .about{
+    display: flex;
+    width: 100%;
+}
+.container section .about>*{
+    width: 50%;
+}
+.container section .about .text{
+    background:  #037bc0; 
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    flex-direction: column;
+    color: white;
+}
+.container section .about .text h2{
+    font-size: 48px;
+    margin: 20px 0;
+}
+.container section .about .text p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+}
+.container section .products{
+    width: 100%;
+    max-width: 1200px;
+    margin: 65px auto;
+}
+.container section .products h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.container section .products .list-product{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(auto, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+.container section .products .list-product .item{
+    background: #037bc0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container section .products .list-product .item img{
+    width: 100%;
+}
+.container section .products .list-product .item .info{
+    padding: 20px;
+}
+.container section .products .list-product .item .info .title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+.container section .products .list-product .item .info .description{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+.container section .products .list-product .item .info .price{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.container section .products .list-product .item .info .price span{
+    font-size: 35px;
+}
+.container section .products .list-product .item .info button{
+    background: #7bff2f;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.container section .products .list-product .col-12{
+    flex-direction: row;
+    grid-column: span 6;
+}
+.container section .products .list-product .col-12 img{
+    width: calc(100% - 300px);
+    height: 400px;
+    object-fit: cover;
+}
+.container section .products .list-product .col-12 .info{
+    width: 300px;
+}
+.container section .products .list-product .col-6{
+    grid-column: span 3;
+}
+.container section .products .list-product .col-4{
+    grid-column: span 2;
+}
